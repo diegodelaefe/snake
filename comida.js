@@ -9,6 +9,7 @@ class Comida{
 
     actualizar(){
 
+
     }
 
     mostrar(){

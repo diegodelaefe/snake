@@ -48,7 +48,7 @@ function probarAparecer(){
         $.get('patches/FX.pd', function(mainStr) {
             Pd.start();
             patch = Pd.loadPatch(mainStr)
-            Pd.send('FX-INICIO', ['bang!']);
+            Pd.send('FX-EAT', ['bang!']);
             pdIniciado = true;
         })
     }
